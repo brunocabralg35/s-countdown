@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'KoHo', sans-serif;
+}
+
+.coming-soon {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.coming-soon h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.coming-soon .countdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+
+.coming-soon .day, .coming-soon .hour, .coming-soon .minute, .coming-soon .second {
+  font-size: 3rem;
+}
+
+.coming-soon img {
+  margin-top: 20px;
+  width: 50vw;
+}
+/*# sourceMappingURL=style.css.map */
